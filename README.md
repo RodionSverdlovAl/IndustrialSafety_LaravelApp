@@ -1,3 +1,34 @@
+# Веб-сервис по производственной безопасности
+Основные функции <br>
+Добавление работников, загрузка документов(скачивание документов), регистрация инцедентов, создание тестов, создание вопросов к тесту, прохождение тестов, получение оценки...
+
+## Установка
+
+Шаги по установке и настройке проекта. <br>
+Проект был написан на UBUNTU 22.04. <br>
+Для того чтобы проект заработал на Windows требуется скачать и распаковать архив с проектом, установить PHP и в файле php.ini раскоментировать строчки, где <br>
+#;extension=pdo_mysql<br>
+#;extension=openssl<br>
+Также установить open server и в файле .env поменять на свои данные.<br>
+написать php artisan migrate:fresh --seed <br>
+php artisan serve
+
+## Скриншоты
+
+В этом разделе приведены скриншоты работы программы.
+
+![Прохождение теста](https://github.com/RodionSverdlovAl/IndustrialSafety_LaravelApp/blob/master/Screenshots/%D0%9F%D1%80%D0%BE%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B5%D1%81%D1%82%D0%B0%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC.jpg)
+_Прохождение теста сотрудником._
+
+![Создание вопросов](https://github.com/RodionSverdlovAl/IndustrialSafety_LaravelApp/blob/master/Screenshots/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B0%20%D0%BA%20%D1%82%D0%B5%D1%81%D1%82%D1%83.jpg)
+_Создание вопросов_
+
+![Страница работника](https://github.com/RodionSverdlovAl/IndustrialSafety_LaravelApp/blob/master/Screenshots/%D0%9F%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D1%8C%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0.jpg)
+<br>
+![Добавление документа](https://github.com/RodionSverdlovAl/IndustrialSafety_LaravelApp/blob/master/Screenshots/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0.jpg)
+<br>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
